@@ -1,3 +1,6 @@
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb  > /dev/null 2>&1
+sudo apt install ./google-chrome-stable_current_amd64.deb  > /dev/null 2>&1
+
 wget -O ng.sh https://github.com/kmille36/Docker-Ubuntu-Desktop-NoMachine/raw/main/ngrok.sh > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
